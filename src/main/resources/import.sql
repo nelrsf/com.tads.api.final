@@ -1,0 +1,12 @@
+INSERT INTO remitente (nombre, apellido, direccion , telefono ) VALUES('Andrés', 'Guzmán','Cra 20#45-4','6598757');
+INSERT INTO remitente (nombre, apellido, direccion , telefono ) VALUES('Mr. John', 'Doe','Cra 33 N0 45-98','314568989');
+INSERT INTO remitente (nombre, apellido, direccion , telefono ) VALUES('Linus', 'Torvalds','Cra 98 N0 145-8','321548788');
+INSERT INTO remitente (nombre, apellido, direccion , telefono ) VALUES('Rasmus', 'Lerdorf','Cra 102 N0 5-98','31568995');
+INSERT INTO remitente (nombre, apellido, direccion , telefono ) VALUES('Erich', 'Gamma','Cra 13 N0 15-69','32569885');
+INSERT INTO remitente (nombre, apellido, direccion , telefono ) VALUES('Richard', 'Helm','Cra 33 N0 45-98','3156988855');
+INSERT INTO remitente (nombre, apellido, direccion , telefono ) VALUES('Ralph', 'Johnson','Cra 203 N0 59-102','315789997');
+INSERT INTO remitente (nombre, apellido, direccion , telefono ) VALUES('John', 'Vlissides','Cra 45 N0 145-88','31895555');
+INSERT INTO remitente (nombre, apellido, direccion , telefono ) VALUES('Dr. James', 'Gosling','Cra 133 N0 58-98','317858855');
+INSERT INTO remitente (nombre, apellido, direccion , telefono ) VALUES('Magma', 'Lee','Cra 25 N0 45-98','321456988');
+INSERT INTO remitente (nombre, apellido, direccion , telefono ) VALUES('Tornado', 'Roe','Cra 133 N0 45-98','32658999');
+INSERT INTO remitente (nombre, apellido, direccion , telefono ) VALUES('Jade', 'Doe','Cra 36 N0 45-98','321548888');
