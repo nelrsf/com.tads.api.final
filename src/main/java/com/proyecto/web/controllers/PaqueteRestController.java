@@ -44,7 +44,7 @@ public class PaqueteRestController {
 		this.paqueteService.save(paquete);
 		return paquete;
 	}
-	
+		
 	
 	@PutMapping("/paquete/{id}")
 	@ResponseStatus(HttpStatus.CREATED)
