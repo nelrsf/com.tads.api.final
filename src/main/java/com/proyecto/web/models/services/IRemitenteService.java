@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.proyecto.web.models.entity.Remitente;
 
+
 public interface IRemitenteService {
 	
 	public List<Remitente>  findAll();

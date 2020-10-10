@@ -10,6 +10,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
+import javax.validation.constraints.NotEmpty;
 
 @Entity
 @Table(name="paquete")
@@ -24,10 +25,50 @@ public class Paquete implements Serializable{
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
 	
-	 @ManyToOne(optional = false, cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    private Destinatario destinatario;
+	//@ManyToOne(optional = false, cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+	@NotEmpty(message="No puede estar vacio")
+	private Long destinatario;
 	 
-	 @ManyToOne(optional = false, cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-	    private Remitente remitente;
+	//@ManyToOne(optional = false, cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @NotEmpty(message="No puede estar vacio")
+    private Long remitente;
+	 
+	private String MotivoDevolucion;
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public Long getDestinatario() {
+		return destinatario;
+	}
+
+	public void setDestinatario(Long destinatario) {
+		this.destinatario = destinatario;
+	}
+
+	public Long getRemitente() {
+		return remitente;
+	}
+
+	public void setRemitente(Long remitente) {
+		this.remitente = remitente;
+	}
+
+	public String getMotivoDevolucion() {
+		// TODO Auto-generated method stub
+		return this.MotivoDevolucion;
+	}
+
+	public void setMotivoDevolucion(String motivoDevolucion) {
+		// TODO Auto-generated method stub
+		this.MotivoDevolucion = motivoDevolucion;
+	}
+	 
+	 
 
 }
