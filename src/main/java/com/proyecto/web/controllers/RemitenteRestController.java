@@ -18,7 +18,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.proyecto.web.models.entity.Remitente;
 import com.proyecto.web.models.services.IRemitenteService;
 
-@CrossOrigin(origins= {"https://frontend-final-tads.web.app"})
+@CrossOrigin(origins= {"http://localhost:4200",
+		               "https://frontend-final-tads.web.app"})
 @RestController
 @RequestMapping("/api")
 public class RemitenteRestController {
