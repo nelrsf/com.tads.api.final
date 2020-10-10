@@ -2,13 +2,10 @@ package com.proyecto.web.models.entity;
 
 import java.io.Serializable;
 
-import javax.persistence.CascadeType;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.validation.constraints.NotEmpty;
 
@@ -33,7 +30,29 @@ public class Paquete implements Serializable{
     @NotEmpty(message="No puede estar vacio")
     private Long remitente;
 	 
-	private String MotivoDevolucion;
+    @NotEmpty(message="No puede estar vacio")
+	private String descripcion;
+	
+    @NotEmpty(message="No puede estar vacio")
+	private Long peso;
+
+	
+	
+	public String getDescripcion() {
+		return descripcion;
+	}
+
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
+	}
+
+	public Long getPeso() {
+		return peso;
+	}
+
+	public void setPeso(Long peso) {
+		this.peso = peso;
+	}
 
 	public Long getId() {
 		return id;
@@ -58,17 +77,5 @@ public class Paquete implements Serializable{
 	public void setRemitente(Long remitente) {
 		this.remitente = remitente;
 	}
-
-	public String getMotivoDevolucion() {
-		// TODO Auto-generated method stub
-		return this.MotivoDevolucion;
-	}
-
-	public void setMotivoDevolucion(String motivoDevolucion) {
-		// TODO Auto-generated method stub
-		this.MotivoDevolucion = motivoDevolucion;
-	}
-	 
-	 
 
 }

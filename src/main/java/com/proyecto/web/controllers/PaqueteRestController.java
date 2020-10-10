@@ -52,7 +52,8 @@ public class PaqueteRestController {
 		Paquete actualPaquete = this.paqueteService.findById(id);
 		actualPaquete.setDestinatario(paquete.getDestinatario());
 		actualPaquete.setRemitente(paquete.getRemitente());
-		actualPaquete.setMotivoDevolucion(paquete.getMotivoDevolucion());
+		actualPaquete.setDescripcion(paquete.getDescripcion());
+		actualPaquete.setPeso(paquete.getPeso());
 		this.paqueteService.save(paquete);
 		return actualPaquete;
 	}

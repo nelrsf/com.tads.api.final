@@ -31,14 +31,14 @@ INSERT INTO CONDUCTOR (nombre, apellido, direccion , telefono ) VALUES('Armando'
 INSERT INTO CONDUCTOR (nombre, apellido, direccion , telefono ) VALUES('Gilberto', 'Duran', 'Calle 200 # 11 - 43 Casa 20','322732855');
 
 
-INSERT INTO PAQUETE (destinatario, remitente) VALUES(1, 1);
-INSERT INTO PAQUETE (destinatario, remitente) VALUES(4, 1);
-INSERT INTO PAQUETE (destinatario, remitente) VALUES(5, 2);
-INSERT INTO PAQUETE (destinatario, remitente) VALUES(3, 4);
-INSERT INTO PAQUETE (destinatario, remitente) VALUES(3, 6);
-INSERT INTO PAQUETE (destinatario, remitente) VALUES(4, 3);
-INSERT INTO PAQUETE (destinatario, remitente) VALUES(2, 5);
-INSERT INTO PAQUETE (destinatario, remitente) VALUES(2, 3);
-INSERT INTO PAQUETE (destinatario, remitente) VALUES(3, 1);
-INSERT INTO PAQUETE (destinatario, remitente) VALUES(3, 4);
-INSERT INTO PAQUETE (destinatario, remitente) VALUES(4, 3);
+INSERT INTO PAQUETE (destinatario, remitente, descripcion, peso) VALUES(1, 1, 'Documentos', 1);
+INSERT INTO PAQUETE (destinatario, remitente, descripcion, peso) VALUES(4, 1, 'Ropa', 2);
+INSERT INTO PAQUETE (destinatario, remitente, descripcion, peso) VALUES(5, 2, 'Caja de herramientas', 5);
+INSERT INTO PAQUETE (destinatario, remitente, descripcion, peso) VALUES(3, 4, 'accesorios de carro', 3);
+INSERT INTO PAQUETE (destinatario, remitente, descripcion, peso) VALUES(3, 6, 'Documentos', 1);
+INSERT INTO PAQUETE (destinatario, remitente, descripcion, peso) VALUES(4, 3, 'Ropa', 1);
+INSERT INTO PAQUETE (destinatario, remitente, descripcion, peso) VALUES(2, 5, 'Tuberias de acero', 7);
+INSERT INTO PAQUETE (destinatario, remitente, descripcion, peso) VALUES(2, 3, 'Televisor', 6);
+INSERT INTO PAQUETE (destinatario, remitente, descripcion, peso) VALUES(3, 1, 'Computador', 2);
+INSERT INTO PAQUETE (destinatario, remitente, descripcion, peso) VALUES(3, 4, 'elementos varios', 4);
+INSERT INTO PAQUETE (destinatario, remitente, descripcion, peso) VALUES(4, 3, 'Documentos', 1);
