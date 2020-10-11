@@ -52,9 +52,8 @@ public class ConductorRestController {
 		Conductor actualConductor = this.conductorService.findById(id);
 		actualConductor.setNombre(conductor.getNombre());
 		actualConductor.setApellido(conductor.getApellido());
-		actualConductor.setDireccion(conductor.getDireccion());
-		actualConductor.setTelefono(conductor.getTelefono());
-		actualConductor.setCamion(conductor.getCamion());
+		actualConductor.setVehiculo(conductor.getVehiculo());
+		actualConductor.setPlaca(conductor.getPlaca());
 		this.conductorService.save(conductor);
 		return actualConductor;
 	}

@@ -20,15 +20,15 @@ INSERT INTO destinatario (nombre, apellido, direccion , telefono ) VALUES('Moise
 INSERT INTO destinatario (nombre, apellido, direccion , telefono ) VALUES('Natasha',  'Uribe' , 'Calle 34 # 78 - 23','23456789');
 
 
-INSERT INTO CONDUCTOR (nombre, apellido, direccion , telefono ) VALUES('Ramiro', 'Perez', 'Calle 200 # 11 - 50', '632742');
-INSERT INTO CONDUCTOR (nombre, apellido, direccion , telefono ) VALUES('Juan', 'Maldonado', 'Carrera 15 # 13b - 150', '3103765546');
-INSERT INTO CONDUCTOR (nombre, apellido, direccion , telefono ) VALUES('Camilo', 'Rueda', 'Avenida 100 # 25 - 30', '3103765546');
-INSERT INTO CONDUCTOR (nombre, apellido, direccion , telefono ) VALUES('Carlos', 'Velez', 'Calle 20 # 13 - 14 Apto 203', '6494977');
-INSERT INTO CONDUCTOR (nombre, apellido, direccion , telefono ) VALUES('David', 'Ramirez', 'Avenida Calle 13 # 34 - 128', '320379941');
-INSERT INTO CONDUCTOR (nombre, apellido, direccion , telefono ) VALUES('Nicolas', 'Ortega', 'Calle 3 # 11 - 35', '310343531');
-INSERT INTO CONDUCTOR (nombre, apellido, direccion , telefono ) VALUES('Josue', 'Reyes', 'Carrera 4 # 11 - 50', '6239981');
-INSERT INTO CONDUCTOR (nombre, apellido, direccion , telefono ) VALUES('Armando','Valencia', 'Calle 5 # 25 - 40', '310312199');
-INSERT INTO CONDUCTOR (nombre, apellido, direccion , telefono ) VALUES('Gilberto', 'Duran', 'Calle 200 # 11 - 43 Casa 20','322732855');
+INSERT INTO CONDUCTOR (nombre, apellido, vehiculo , placa ) VALUES('Ramiro', 'Perez', 'Camion 5T', 'XCD742');
+INSERT INTO CONDUCTOR (nombre, apellido, vehiculo , placa ) VALUES('Juan', 'Maldonado', 'Camioneta 1T', 'FGR546');
+INSERT INTO CONDUCTOR (nombre, apellido, vehiculo , placa ) VALUES('Camilo', 'Rueda', 'Camioneta 1T', 'FDS546');
+INSERT INTO CONDUCTOR (nombre, apellido, vehiculo , placa ) VALUES('Carlos', 'Velez', 'Camioneta 1T', 'HFV977');
+INSERT INTO CONDUCTOR (nombre, apellido, vehiculo , placa ) VALUES('David', 'Ramirez', 'Carro 0.5T', 'ADS941');
+INSERT INTO CONDUCTOR (nombre, apellido, vehiculo , placa ) VALUES('Nicolas', 'Ortega', 'Camion 5T', 'ODK531');
+INSERT INTO CONDUCTOR (nombre, apellido, vehiculo , placa ) VALUES('Josue', 'Reyes', 'Carro 0.5T', 'PAO981');
+INSERT INTO CONDUCTOR (nombre, apellido, vehiculo , placa ) VALUES('Armando','Valencia', 'Moto', 'DOS199');
+INSERT INTO CONDUCTOR (nombre, apellido, vehiculo , placa ) VALUES('Gilberto', 'Duran', 'Carro 0.5T','SPA855');
 
 
 INSERT INTO PAQUETE (destinatario, remitente, descripcion, peso) VALUES(1, 1, 'Documentos', 1);

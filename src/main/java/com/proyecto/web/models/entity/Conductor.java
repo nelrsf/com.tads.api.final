@@ -30,15 +30,12 @@ public class Conductor implements Serializable{
 	@NotEmpty(message="No puede estar vacio")
 	private String apellido;
 	
-	@Column(nullable=false)
-	@NotEmpty(message="No puede estar vacio")
-	private String direccion;
 	
 	@Column(nullable=false)
 	@NotEmpty(message="No puede estar vacio")
-	private String telefono;
+	private String vehiculo;
 	
-	private String camion;
+	private String placa;
 
 	public Long getId() {
 		return id;
@@ -64,30 +61,20 @@ public class Conductor implements Serializable{
 		this.apellido = apellido;
 	}
 
-	public String getDireccion() {
-		return direccion;
+	public String getVehiculo() {
+		return vehiculo;
 	}
 
-	public void setDireccion(String direccion) {
-		this.direccion = direccion;
+	public void setVehiculo(String vehiculo) {
+		this.vehiculo = vehiculo;
 	}
 
-	public String getTelefono() {
-		return telefono;
+	public String getPlaca() {
+		return placa;
 	}
 
-	public void setTelefono(String telefono) {
-		this.telefono = telefono;
+	public void setPlaca(String placa) {
+		this.placa = placa;
 	}
-
-	public String getCamion() {
-		return camion;
-	}
-
-	public void setCamion(String camion) {
-		this.camion = camion;
-	}
-	
-	
-
+    
 }
