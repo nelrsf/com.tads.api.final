@@ -31,6 +31,7 @@ INSERT INTO CONDUCTOR (nombre, apellido, vehiculo , placa ) VALUES('Armando','Va
 INSERT INTO CONDUCTOR (nombre, apellido, vehiculo , placa ) VALUES('Gilberto', 'Duran', 'Carro 0.5T','SPA855');
 
 
+
 INSERT INTO PAQUETE (destinatario, remitente, conductor, descripcion, peso) VALUES(1, 1, 6, 'Documentos', 1);
 INSERT INTO PAQUETE (destinatario, remitente, conductor, descripcion, peso) VALUES(4, 1, 7, 'Ropa', 2);
 INSERT INTO PAQUETE (destinatario, remitente, conductor, descripcion, peso) VALUES(5, 2, 2, 'Caja de herramientas', 5);
