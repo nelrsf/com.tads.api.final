@@ -29,6 +29,9 @@ public class Paquete implements Serializable{
 	//@ManyToOne(optional = false, cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @NotEmpty(message="No puede estar vacio")
     private Long remitente;
+    
+    @NotEmpty(message="No puede estar vacio")
+    private Long conductor;
 	 
     @NotEmpty(message="No puede estar vacio")
 	private String descripcion;
@@ -76,6 +79,14 @@ public class Paquete implements Serializable{
 
 	public void setRemitente(Long remitente) {
 		this.remitente = remitente;
+	}
+
+	public Long getConductor() {
+		return conductor;
+	}
+
+	public void setConductor(Long conductor) {
+		this.conductor = conductor;
 	}
 
 }
